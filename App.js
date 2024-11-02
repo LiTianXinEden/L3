@@ -62,7 +62,7 @@ const App = () => {
             <InputBox label="Password:" onChangeText={(text) => setPw(text)}/>
 
             <TouchableOpacity onPress={() =>
-                ToastAndroid.show('Welcome  ' + type + ' ' + name, ToastAndroid.SHORT)}>
+                ToastAndroid.show('Welcome ' + type + ' ' + name, ToastAndroid.SHORT)}>
                 <Text>LOG IN</Text>
             </TouchableOpacity>
             <Text>{pw}</Text>
